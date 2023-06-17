@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="8.811" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1004 Stepler'de parametre kullanılabilmeli" name="TC09 Amazon Java Testi" time="8.642">
+<testsuite name="Cucumber" time="21.556" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US2 Yeni bir hesap olusuturma testi" name="TC15 Yeni bir hesap olusuturabilmeli" time="21.404">
 <system-out><![CDATA[
-Given Kullanici "amazonUrl" anasayfaya gider................................passed
-When "Java" icin arama yapar................................................passed
-Then Arama sonuclarinin "Java" icerdigini test eder.........................passed
-And Sayfayi kapatir.........................................................passed
+Given Kullanici "automationUrl" anasayfaya gider............................passed
+And user sign up linkine tiklar.............................................passed
+And user Create an account bolumune email adresi girer......................passed
+And signUp butonuna basar...................................................passed
+And user kisisel bilgilerini ve iletisim bilgilerini girer..................passed
+And user Create Account butonuna basar......................................passed
+Then hesap olustugunu test edin.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
