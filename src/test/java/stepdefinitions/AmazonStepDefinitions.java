@@ -115,4 +115,16 @@ public class AmazonStepDefinitions {
     }
 
 
+    @And("ilk urunce click yapar")
+    public void ilkUrunceClickYapar() {
+        amazonPage.ilkUrun.click();
+    }
+
+    @And("acilan urun isminin {string} icerdigini test eder")
+    public void acilanUrunIsmininIcerdiginiTestEder(String aranacakIcerik) {
+        String actualIcerik = amazonPage.ilkUrunIsim.getText();
+        String expectedIcerik = aranacakIcerik;
+
+        Assert.assertTrue(actualIcerik.contains(expectedIcerik));
+    }
 }

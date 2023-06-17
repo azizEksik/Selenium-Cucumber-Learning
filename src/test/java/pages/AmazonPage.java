@@ -31,4 +31,10 @@ public class AmazonPage {
     @FindBy(xpath = "(//div[@class='sg-col-inner'])[1]")
     public WebElement searchResults;
 
+    @FindBy(xpath = "//span[@data-component-type='s-search-results']/div/div[3]")
+    public WebElement ilkUrun;
+
+    @FindBy(xpath = "(//div[@class='centerColAlign '])[1]/div[1]")
+    public WebElement ilkUrunIsim;
+
 }

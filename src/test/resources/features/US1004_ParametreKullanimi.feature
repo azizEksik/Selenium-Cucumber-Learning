@@ -10,7 +10,7 @@ Feature: US1004 Stepler'de parametre kullanılabilmeli
     And 3 saniye bekler
     And Sayfayi kapatir
 
-  @regression
+  @regression @ss
   Scenario: TC09 Amazon Java Testi
 
     Given Kullanici "amazonUrl" anasayfaya gider

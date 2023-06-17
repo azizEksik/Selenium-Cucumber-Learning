@@ -27,4 +27,7 @@ public class QualityDemyPage {
     @FindBy(xpath = "(//img[@class='img-fluid'])[2]")
     public WebElement userProfileImage;
 
+    @FindBy(xpath = "//div[text()='Invalid login credentials']")
+    public WebElement notLoginText;
+
 }
